@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
+public class CodeKata_Ex1 {
 	public static void main (String[] args) throws Exception {
 	    int n;
 	    Scanner sc = new Scanner(System.in);
