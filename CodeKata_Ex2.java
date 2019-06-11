@@ -9,7 +9,9 @@ public class CodeKata_Ex2 {
 	    Scanner sc = new Scanner(System.in);
 	    try{
 	        n = sc.nextInt();
-	        if(n%2==0)
+		if(n<0)
+	        System.out.printf("Invalid");
+	        else if(n%2==0)
 	        System.out.println("Even");
 	        else
 	        System.out.println("Odd");
