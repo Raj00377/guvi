@@ -17,7 +17,7 @@ public class CodeKata_Ex6 {
 	        else if(n%4==0)
 	        System.out.println("yes");
 	        else
-	        System.out.println("no")
+	        System.out.println("no");
 	    }
 	    catch(Exception e){
 	       System.out.println("Invalid");
