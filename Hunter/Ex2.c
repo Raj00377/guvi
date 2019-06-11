@@ -11,7 +11,7 @@ int main()
    int arr[number];
    for(i=0;i<number;i++)
     scanf("%d",&arr[i]);
-   qsort(arr, 5, sizeof(int), cmpfunc);
+   qsort(arr, number, sizeof(int), cmpfunc);
    for(i=number-1;i>=0;i--)
     printf("%d",arr[i]);
     return 0;
