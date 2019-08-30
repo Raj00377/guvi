@@ -5,7 +5,7 @@ int main(void)
     scanf("%d %d",&N,&M);
     //int arr[N][M];
     int score;
-        for(int j=0;j<M;j++){
+        for(int j=0;j<N*M;j++){
             scanf("%d",&score);
             if(score==1)
              sitaScore++;
